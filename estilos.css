@@ -1,0 +1,15 @@
+/*Estilo Main*/
+h1 {color: blue; font-size: 40px;text-align: center;}
+h2 {color: #233483;font-size: 30px; margin: 30px;}
+body {background-color: #d4d4d4;}
+p {text-transform: uppercase;}
+.noticia1 {color: green;}
+.noticia2 {color: red;}
+
+/*Estilo navegacion*/
+header nav ul a{color: darkblue;text-decoration: none;}
+
+/* Estilo footer*/
+footer{text-align: right;font-size: medium;}
+
+
