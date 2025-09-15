@@ -1,3 +1,10 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*Estilo Main*/
 h1 {color: blue; font-size: 40px;text-align: center;}
 h2 {color: #233483;font-size: 30px; margin: 30px;}
@@ -5,11 +12,77 @@ body {background-color: #d4d4d4;}
 p {text-transform: uppercase;}
 .noticia1 {color: green;}
 .noticia2 {color: red;}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/*Estilo navegacion*/
-header nav ul a{color: darkblue;text-decoration: none;}
+main .ubicacion {
+    width: 60%;
+}
+
+main .texto{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #233483;
+    font-size: large;
+}
+
+main section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section div div .noticia1{
+    width: 10%;
+}
+
+section div div .noticia2{
+    width: 10%;
+}
+
+
+
+
+/*Estilo Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+header img {width: 15%;
+    background-color: black;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    padding-right: 20px;  
+}
 
 /* Estilo footer*/
-footer{text-align: right;font-size: medium;}
+footer{
+    text-align: right;
+    font-size: medium;
+}
+
+/* Estilo formulario*/
+
+form{
+    display: grid;
+    justify-items: center;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
 
 
